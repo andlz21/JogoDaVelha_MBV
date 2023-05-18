@@ -1,10 +1,9 @@
-import './App.css';
+import React from 'react';
+import Sobre from './Objects/Sobre';
 
 function App() {
 	return (
-		<a className='about_link' href='#to-do'>
-			Sobre
-		</a>
+		<Sobre />
 	);
 }
 
