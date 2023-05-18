@@ -1,9 +1,13 @@
 import React from 'react';
 import Sobre from './Objects/Sobre';
+import LogoTicTacToe from './Objects/Logo';
 
 function App() {
 	return (
-		<Sobre />
+		<>
+			<LogoTicTacToe />
+			<Sobre />
+		</>
 	);
 }
 
