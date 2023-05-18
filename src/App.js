@@ -1,14 +1,10 @@
 import React from 'react';
-import Sobre from './Objects/Sobre';
-import LogoTicTacToe from './Objects/Logo';
-import Menu from './Objects/Menu';
+import Header from './Components/Header';
 
 function App() {
 	return (
 		<>
-			<LogoTicTacToe />
-			<Sobre />
-			<Menu />
+			<Header />
 		</>
 	);
 }
