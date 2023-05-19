@@ -1,4 +1,6 @@
 :root {
+  --color-light-negative: rgba(58, 64, 66, 0.1);
+
   --color-one: #eeeeee;
   --color-two: #ffffff;
   --color-three: #fffcee;
