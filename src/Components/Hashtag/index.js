@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import Card from '../../Objects/Card';
 import Player from '../../Objects/Player';
-import './style.css'
+import './style.css';
 
 const Hashtag = () => {
    return (

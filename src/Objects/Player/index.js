@@ -1,7 +1,7 @@
 import React from 'react';
 import playerX from '../../assets/player-x.png';
 import playerO from '../../assets/player-o.png';
-import './styles.css';
+import './Player.css';
 
 const Player = ({player}) => {
    const players = [];

@@ -8,7 +8,7 @@
 .menu > .menu_center {
    content: '';
    display: block;
-   background-color: var(--color-eight);
+   background-color: var(--color-nine);
    height: 4px;
    width: 100%;
    border-radius: 2px;
