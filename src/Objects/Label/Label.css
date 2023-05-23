@@ -3,3 +3,8 @@
    font-weight: bold;
    color: var(--color-nine);
 }
+
+.label::selection {
+   background-color: var(--color-ten);
+   color: var(--color-two);
+}
