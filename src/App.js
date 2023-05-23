@@ -3,14 +3,14 @@ import './App.css';
 
 import Header from './Components/Header';
 import Hashtag from './Components/Hashtag';
-import Label from './Objects/Label';
+import InputCheckbox from './Objects/Input_Checkbox';
 
 const App = () => {
 	return (
 		<main className='app'>
 			<Header />
 			<Hashtag />
-			<Label content='Mostrar eventos' />
+			<InputCheckbox id="showEvents" value="showEvents" content="Mostrar eventos" />
 		</main>
 	);
 };
