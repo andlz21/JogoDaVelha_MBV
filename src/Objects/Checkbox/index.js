@@ -1,6 +1,7 @@
 import React from 'react';
 import Label from '../Label';
 import Input from '../Input';
+import './Checkbox.css'
 
 const Checkbox = ({ id = "", value = "", content = "" }) => {
    return (
