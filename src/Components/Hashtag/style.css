@@ -10,26 +10,40 @@
    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.hashtag > .grid-item {
+.hashtag>.grid-item {
    background-color: var(--color-one);
    display: flex;
    justify-content: center;
 }
 
-.hashtag > .grid-item:nth-child(2) {
+.hashtag>.grid-item:nth-child(2),
+.hashtag>.grid-item:nth-child(8) {
    justify-content: space-between;
 }
 
-.hashtag > .grid-item:nth-child(2)::before,
-.hashtag > .grid-item:nth-child(2)::after {
-   content: '';
-   width: 3gap;
-   height: 100%;
-   background-color: red;
-   border-top-left-radius: 1.5px;
-   border-top-right-radius: 1.5px;
+.hashtag>.grid-item:nth-child(2)::before,
+.hashtag>.grid-item:nth-child(2)::after {
+   border-top-left-radius: 2px;
+   border-top-right-radius: 2px;
 }
 
-.hashtag > .grid-item:nth-child(5) {
+.hashtag >.grid-item:nth-child(5) {
    border: 4px solid red;
 }
+
+.hashtag>.grid-item:nth-child(2)::before,
+.hashtag>.grid-item:nth-child(2)::after,
+.hashtag>.grid-item:nth-child(8)::before,
+.hashtag>.grid-item:nth-child(8)::after {
+   content: '';
+   width: 4px;
+   height: 100%;
+   background-color: red;
+}
+
+.hashtag>.grid-item:nth-child(8)::before,
+.hashtag>.grid-item:nth-child(8)::after {
+   border-bottom-left-radius: 2px;
+   border-top-right-radius: 2px;
+}
+
